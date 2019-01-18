@@ -3,19 +3,49 @@
     grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
     background-color: rgb(0, 0, 0);
-    padding: 10px;
+    padding: 40px;
+    width: 600px;
+    margin: auto;
+    border-radius: 5%;
+    font-family: Arial;
+    color:white;
+    
   }
-  
-  .grid-container > div {
+
+  button {
+    border-radius: 3%;
+    border: groove white;
     background-color: rgb(93, 155, 248);
+    color: white;
+  }
+
+  .grid-container > button {
     text-align: center;
     padding: 20px 0;
-    font-size: 30px;
+    font-size: 40px;
+    font-weight: 500;
+    
   }
-  .item0 {
+  #screen {
     grid-column: 1 / 5;
-    height: 50px;
+    height: 70px;
+    color: white;
+    background-color: rgb(145, 141, 141);
+    border-radius: 1%;
+    border: ridge white;
+    font-size: 60px;
+    text-align: end;
   }
-  .item17 {
-    grid-column: 2 / 4;
+
+  .op {
+    background-color: lightsteelblue;
+  }
+
+  .equals {
+    grid-column: 1 / 5;
+    color: white;
+    border-radius: 1%;
+    border: groove white;
+    background-color: rgb(236, 96, 2);
+    ;
   }
