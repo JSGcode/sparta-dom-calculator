@@ -1,13 +1,15 @@
 .grid-container {
     display: grid;
+    width: 600px;
+    align-self: center; /*Delete here*/
     grid-template-columns: auto auto auto auto;
     grid-gap: 10px;
     background-color: rgb(0, 0, 0);
     padding: 10px;
   }
-  
+
   .grid-container > div {
-    background-color: rgb(93, 155, 248);
+    /* background-color: rgb(93, 155, 248); */
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
@@ -15,7 +17,28 @@
   .item0 {
     grid-column: 1 / 5;
     height: 50px;
+    background-color: rgb(255, 255, 255);
   }
   .item17 {
     grid-column: 2 / 4;
   }
+
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.number{
+    background-color: rgb(93, 155, 248);
+    border-radius: 50%;
+}
+.number:hover {
+  background-color:white;
+}
+.item4, .item8, .item12, .item15, .item16{
+    background-color: rgb(107, 107, 107);
+}
+.item13{
+        background-color: red;
+}
+.item17{
+        background-color: green;
+}
